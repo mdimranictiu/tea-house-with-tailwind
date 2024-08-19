@@ -15,17 +15,78 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body class="font-manrope">
-    <header>
+    <header class="max-w-screen-xl mx-auto px-16 lg:px-28 ">
+        <nav></nav>
+        <div class="flex">
+            <div class=" pt-10 mb-20">
+                <h1 class="text-5xl md:text-7xl font-bold">It's good 
+                   <br> tea time at <br> The Tea House</h1>
+                   <p class="text-gray-500 w-3/4 mt-7 mb-10">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                   <button class="px-5 rounded-lg text-white font-bold border-2 py-3 bg-gradient-to-l text-xl from-[#FF0000] to-[#FF8938]">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+            <div class="relative">
+                <img class="w-full" src="./images/banner.png" alt="">
+                <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32  lg:left-28">
+                    <!-- icon div -->
+                   <div>
+                    <i text-xl class="fa-solid fa-star text-2xl text-amber-500"></i>
+                   </div>
+                    <div class="ml-3">
+                        <h3 class="lg:text-2xl font-bold">5.00</h3>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+                <!-- rating -->
+                
+    
+            </div>
+        </div>
    
     </header>
-    <main>
-<h1>Hello</h1>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28  ">
+        <section class="mt-20">
+            <h2 class="text-center pl-5 text-5xl font-bold mb-5 max-md:text-3xl">Our Featured Products</h2>
+            <p class="text-gray-500 ml-5 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+            <!-- Card-items
+              -->
+            <div class="grid grid-cols-4 gap-5 mt-10  mb-10 max-md:flex-col text-center max-md:grid-cols-2 max-sm:grid-cols-1">
+                <div class=" rounded-lg border bg-gradient-to-l from-[#F4F4F4] to-[#F4F4F4] justify-center items-center py-5 px-5">
+                    <img class="mt-5 mx-auto" src="./images/tea-1.png" alt="">
+                    <h3 class="font-bold text-lg">Milk Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class=" rounded-lg border bg-gradient-to-l from-[#F4F4F4] to-[#F4F4F4] justify-center items-center py-5 px-5">
+                    <img class="mt-5 mx-auto" src="./images/tea-2.png" alt="">
+                    <h3 class="font-bold text-lg">Milk Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class=" rounded-lg border bg-gradient-to-l from-[#F4F4F4] to-[#F4F4F4] justify-center items-center py-5 px-5">
+                    <img class="mt-5 mx-auto" src="./images/tea-3.png" alt="">
+                    <h3 class="font-bold text-lg">Milk Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                <div class=" rounded-lg border bg-gradient-to-l from-[#F4F4F4] to-[#F4F4F4] justify-center items-center py-5 px-5">
+                    <img class="mt-5 mx-auto" src="./images/tea-4.png" alt="">
+                    <h3 class="font-bold text-lg">Milk Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                </div>
+                
+            </div>
+        </section>
+    
     </main>
     <footer>
 
     </footer>
 </body>
 </html>
+
+
+
+
+
+
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
